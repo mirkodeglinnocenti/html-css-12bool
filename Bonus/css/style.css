@@ -1,0 +1,35 @@
+html{
+    font-family: 'Bungee Shade', cursive;
+}
+
+[class^="col-"] {
+    background-color: black;
+    padding: 20px;
+}
+
+.white{
+    background-color: white;
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.row.text-section > .col-12{
+    background-color: white;
+    padding: 0;
+}
+
+.container{
+    padding-top: 10px;
+}
