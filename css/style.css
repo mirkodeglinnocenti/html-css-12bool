@@ -2,7 +2,7 @@
     background-color: #006CFA;
     color: white;
     text-align: center;
-    line-height: 40px;
+    padding: 20px;
     border: 1px solid white;
 }
 
@@ -13,4 +13,8 @@
 .nested > [class^="col-"] {
     background-color: #00E165;
     border: 1px solid #006CFA;
+}
+
+section{
+    padding: 20px 0;
 }
